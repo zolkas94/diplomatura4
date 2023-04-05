@@ -3,10 +3,23 @@
     background-color: black;
 }
 #Alfredo-cv {
-margin-top: auto;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: auto;
-color: blueviolet;  
-font-size: 60px;
+    margin-top:10px;
+    margin-right: 50px;
+    margin-bottom:20px;
+    color: blueviolet;  
+    font-size: 60px;
+    
+}
+.foto1 {
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid black;
+        float: left;
+        width: 250px; 
+    }
+.lista1 {
+    margin-top: 275px;
+}
+.lista2 {
+    margin-top: 50px;
 }

@@ -1,25 +1,82 @@
 * {
     color: red;
-    background-color: black;
-}
-#Alfredo-cv {
-    margin-top:10px;
-    margin-right: 50px;
-    margin-bottom:20px;
-    color: blueviolet;  
-    font-size: 60px;
+    background-color: rgb(20, 99, 3);
+    /*background: #100505;
+    background: linear-gradient(256deg,#100505 0%, #00ff00 80%);
+    background: -webkit-linear-gradient(256deg,#100505 0%, #00ff00 80%);
+    background: -moz-linear-gradient(256deg,#100505 0%, #00ff00 80%);*/
     
 }
+
 .foto1 {
         padding: 10px;
         margin: 10px;
-        border: 2px solid black;
+        border: 2px solid #d60808;
         float: left;
-        width: 250px; 
+        width: 250px;
+       
     }
 .lista1 {
     margin-top: 275px;
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-decoration:none;
+    padding: 1.2rem;
+    
+}
+.header {
+    background: #100505;
+    background: linear-gradient(256deg,#100505 0%, #00ff00 80%);
+    background: -webkit-linear-gradient(256deg,#100505 0%, #00ff00 80%);
+    background: -moz-linear-gradient(256deg,#100505 0%, #00ff00 80%);
 }
 .lista2 {
     margin-top: 50px;
+    font-weight: 250px;
+    font-size: 1.3rem;
+    text-decoration:none;
+    padding: 1.2rem;
+}
+.section2 {
+    background-color: #fa5031;
+}
+.h2 {
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding: 1.2rem;
+
+}
+.p1 {
+    padding: 0px;
+    margin: 10px;
+    border: 2px solid #d60808;
+    float: left;
+    width: 250px;
+}
+.h21 {
+    margin-top: 50px;
+    font-weight: 200;
+    font-size: 1.3rem;
+    padding: 1.2rem;
+}
+.p2 {
+    padding: 0px;
+    margin: 10px;
+    border: 2px solid #d60808;
+    float: left;
+    width: 250px;
+}
+.h22 {
+    margin-top: 50px;
+    font-weight: 200;
+    font-size: 1.3rem;
+    padding: 1.2rem;
+}
+.p3 {
+    padding: 0px;
+    margin: 40px;
+    border: 2px solid #d60808;
+    float: left;
+    width: 250px;
 }

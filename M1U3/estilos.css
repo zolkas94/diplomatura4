@@ -23,7 +23,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh; /* asegura que la imagen esté en el centro de la pantalla */
+        height: 100vh;
 
     }
 #lista1 {

@@ -6,16 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV de Alfredo Nappe</title>
     <link rel="stylesheet" href="estilos.css">
+    <script src="./script.js">
+        alert("Un mensaje de prueba")
+    </script>
 </head>
 
 <body>
-    <svg width="100" height="100">
-        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="red"/>
-    </svg>
-<h1>CV de Alfredo Nappe</h1>
-    <div id="Alfredo-cv">
-        <img class="foto1" src="img/GERMANCV.jpg" alt="Alfredo">
-    </div>    
+    <div class="container" style="background-color: blueviolet;">Hola soy un contenedor</div>
+    <div class="container-fluid" style="background-color: green;">Hola soy un contenedor fluido</div>
+    <header class="header">
+        <h1>CV de Alfredo Nappe</h1>
+    </header>
+        <nav>        
+            <ul class="menusuperior">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Historia</a></li>
+                <li><a href="#">Peliculas</a></li>
+                <li><a href="#">Series</a></li>
+                <li><a href="#">Mangas</a></li>
+                <li><a href="#">Animes</a></li>
+                <li><a href="#">Mas Informacion</a></li> 
+           </ul>
+        </nav>
+    <header>
+        <div>
+            <img src="./img/html.png" width="100" alt="logo">
+        </div>
+        <div id="Alfredo-cv">
+            <img class="circulo" src="img/GERMANCV.jpg" alt="Alfredo">
+        </div>
+    </header>
+    <main>    
     <div id="lista1">
      <h2>Series que me gustan</h2>
      <header>       
@@ -24,7 +45,7 @@
           <li><a class="hiper">División Palermo</a></li>
           <li><a class="hiper">Merlina</a></li>
           <li><a class="hiper">The Mandalorian</a></li>
-          <li><a class="hiper">One Piece</a></li>
+          <li><a class="hiper">Vikingos</a></li>
         </ul>
       </header>
     </div>
@@ -37,6 +58,17 @@
                 <li><a >Avengers End Game</a></li>
                 <li><a >Black Panter: Wakanda Forever</a></li>
                 <li><a >LightYear</a></li>
+           </ol>
+    </div>
+    <div id="lista3">
+        <h2>Mangas que me gustan</h2>
+        
+            <ol class="mangas">
+                <li><a >One piece</a></li>
+                <li><a >One Punch Man</a></li>
+                <li><a >My Hero Academia</a></li>
+                <li><a >Tokyo Ghoul</a></li>
+                <li><a >Black Clover</a></li>
            </ol>
     </div>
     <section id="section1">
@@ -65,6 +97,9 @@
         Para mas info <a href="https://www.google.com.ar" target="_blank">AQUI</a>
     </p>
     </section>
+</main>
+    <hr>
+<footer>esto es footer</footer>
 
 </body>
 </html>
